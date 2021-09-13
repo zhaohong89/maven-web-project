@@ -40,7 +40,7 @@ public class HelloServlet extends HttpServlet {
 		
 		String yourName = request.getParameter("yourName");
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1>Hello " + yourName + "</h1>");
+		writer.println("<h1>Hello kitty" + yourName + "</h1>");
 		writer.close();
 	}
 
